@@ -1,0 +1,19 @@
+/* Toast success style */
+.custom-toast-success {
+  background-color: white !important;
+  color: green !important;
+  font-weight: bold;
+  border: 1px solid green;
+  border-radius: 6px;
+  padding: 12px 16px;
+}
+
+/* Button hover effect for better UX */
+button:hover {
+  opacity: 0.9;
+}
+
+/* Smooth transition for scaling */
+button {
+  transition: transform 0.2s ease;
+}

@@ -1,0 +1,142 @@
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #dae8ed;
+}
+
+/* Main Heading */
+.about-title {
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  color: #2313b4;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Intro Section */
+.intro-section {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #555;
+}
+
+/* Section Titles */
+.section-title {
+  font-family: 'Lobster', cursive;
+  font-size: 2.4rem;
+  color: #0419b8;
+  margin: 60px 0 30px;
+  text-align: center;
+}
+
+.section-title.underline {
+  border-bottom: 3px solid #0c055a;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Product Sections */
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.about-section.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Uniform Image Sizes */
+.image-block img {
+  width: 100%;
+  max-width: 420px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Text Block */
+.text-block {
+  flex: 1;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.text-block h2 {
+  color: #0c53e1;
+  margin-bottom: 10px;
+}
+
+/* Team Section */
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+}
+
+.team-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #160786;
+}
+
+.team-card h3 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.team-card p {
+  margin: 0;
+  color: #777;
+  font-style: italic;
+}
+
+/* Contact Section */
+.contact-container {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 60px;
+}
+
+.contact-container a.contact-link {
+  color: #0733d0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-container a.contact-link:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top:
+
+}

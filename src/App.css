@@ -1,0 +1,108 @@
+/* Keep previous styles from before */
+
+/* Section Title Styling */
+.section-title {
+  font-family: 'Lobster', cursive;
+  font-size: 2.8rem;
+  color: #28a745;
+  margin: 60px 0 30px;
+  text-align: center;
+}
+
+/* Team Section */
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+}
+
+.team-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.team-card p {
+  margin: 0;
+  color: #777;
+  font-style: italic;
+}
+
+/* Contact Section */
+.contact-container {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.contact-container a {
+  color: #28a745;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-container a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Responsive - Stack sections on small screens */
+@media (max-width: 768px) {
+  .about-section,
+  .about-section.reverse {
+    flex-direction: column !important;
+  }
+
+  .image-block,
+  .text-block {
+    min-width: 100% !important;
+  }
+
+  .team-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
